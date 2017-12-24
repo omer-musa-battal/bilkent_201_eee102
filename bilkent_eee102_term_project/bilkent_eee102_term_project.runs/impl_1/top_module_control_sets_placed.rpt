@@ -1,0 +1,139 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Thu Dec 21 08:56:41 2017
+| Host         : battal-inspiron-n5110 running 64-bit Ubuntu 16.04.3 LTS
+| Command      : report_control_sets -verbose -file top_module_control_sets_placed.rpt
+| Design       : top_module
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    73 |
+| Unused register locations in slices containing registers |   276 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              70 |           48 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             211 |           79 |
+| Yes          | No                    | No                     |              29 |           17 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             334 |          101 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------------+--------------------------------+------------------+----------------+
+|  Clock Signal  |             Enable Signal             |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
++----------------+---------------------------------------+--------------------------------+------------------+----------------+
+|  clk_10_BUFG   | C2/guess_cell_colors[12,3][3]_i_1_n_0 | sw_IBUF[0]                     |                2 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[0,0][3]_i_1_n_0  | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[0,1][3]_i_1_n_0  | sw_IBUF[0]                     |                3 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[0,2][3]_i_1_n_0  | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[10,0]            | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[10,1]            | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[10,2]            | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[10,3]            | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[11,0]            | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[11,1][3]_i_1_n_0 | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[11,3]            | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[12,0]            | sw_IBUF[0]                     |                2 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[12,1]            | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[12,2]            | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[4,3]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[2,0]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[2,1]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[2,2]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[2,3]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[3,0]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[3,1]             | sw_IBUF[0]                     |                2 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[3,2]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[3,3]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[4,2]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[4,1][3]_i_1_n_0  | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[4,0]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[11,2]            | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[8,0]             | sw_IBUF[0]                     |                2 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[6,3]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[5,2]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[5,3]             | sw_IBUF[0]                     |                2 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[6,0]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[6,1]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[0,3][3]_i_1_n_0  | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[1,0]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[1,1]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[6,2]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[7,0]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[7,1]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[7,2]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[7,3]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[8,1]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[8,2]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[8,3]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_25m_BUFG  |                                       |                                |                3 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[9,0]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[9,1]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[9,2]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[9,3]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[5,0]             | sw_IBUF[0]                     |                2 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[5,1]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[1,2]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_10_BUFG   | C2/guess_cell_colors[1,3]             | sw_IBUF[0]                     |                1 |              4 |
+|  clk_25m_BUFG  | C2/show_color[5]_i_1_n_0              |                                |                5 |              6 |
+|  clk_10_BUFG   | C2/score[8]_i_2_n_0                   | C2/score_4[8]                  |                2 |              6 |
+|  clk_IBUF_BUFG |                                       |                                |                6 |              6 |
+|  clk_10_BUFG   | C2/key_cell_colors[12,0][0]_i_1_n_0   |                                |                3 |              7 |
+|  clk_10_BUFG   | C2/pin_selection[2]_1                 | sw_IBUF[0]                     |                2 |              8 |
+|  clk_10_BUFG   | C2/pin_selection[6]_3                 | C2/pin_selection[6][9]_i_1_n_0 |                4 |             10 |
+|  clk_25m_BUFG  |                                       | C2/clear                       |                6 |             10 |
+|  clk_25m_BUFG  | C2/VPOS_cur0                          | C2/VPOS_next                   |                6 |             10 |
+|  C1/CLK        |                                       |                                |                5 |             10 |
+|  clk_25m_BUFG  |                                       | C2/rgb_cur[11]_i_1_n_0         |                5 |             12 |
+|  clk_10_BUFG   | sw_IBUF[0]                            |                                |                9 |             16 |
+|  clk_10_BUFG   | C2/color_selection[1]_0               | sw_IBUF[0]                     |                5 |             17 |
+|  clk_10_BUFG   | C2/pin_selection[1]_2                 | sw_IBUF[0]                     |                7 |             17 |
+|  clk_10_BUFG   | C2/score[31]_i_2_n_0                  | C2/score_4[31]                 |                7 |             26 |
+|  clk_IBUF_BUFG |                                       | C1/clk_25MHz                   |                8 |             31 |
+|  clk_IBUF_BUFG |                                       | C1/clk_200Hz                   |                8 |             31 |
+|  clk_IBUF_BUFG |                                       | C1/clk_10Hz                    |                8 |             31 |
+|  clk_10_BUFG   | C2/clk_count_10[0]_i_2_n_0            | C2/clk_count_10[0]_i_1_n_0     |                8 |             32 |
+|  clk_10_BUFG   |                                       |                                |               34 |             50 |
+|  clk_10_BUFG   |                                       | sw_IBUF[0]                     |               44 |             96 |
++----------------+---------------------------------------+--------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                    53 |
+| 6      |                     3 |
+| 7      |                     1 |
+| 8      |                     1 |
+| 10     |                     4 |
+| 12     |                     1 |
+| 16+    |                    10 |
++--------+-----------------------+
+
+
